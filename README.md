@@ -1,15 +1,34 @@
-<h1 align="center">Finday</h1>
-<p align="center"><em>Super simple way to track your finances, with no ads, data mining and unnecessary complexity</em></p>
+<h1>Finday</h1>
+<p><em>A way to track your finances, with no ads, data mining and unnecessary complexity</em></p>
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="License: AGPL v3" />
-</p>
+## Quick Start Guide
 
-## ✨ Features (MVP)
+1.  Clone and install
 
-- Work in progress!
+    ```
+    # Clone the repository
+    git clone https://github.com/hugoqdesh/finday.git
+    cd finday
+
+    # Install dependencies
+    npm install
+    ```
+
+2.  Configure Environment Variables
+
+    Fill in the values in .env file (refer to .env.example):
+
+3.  Start the App
+
+    ```
+    npm run dev
+    ```
+
+4.  Open in Browser
+
+    Visit http://localhost:3000
 
 ## 🛠 Local Development & Contributing
 
@@ -19,4 +38,4 @@ database configuration, and pull-request guidelines.
 
 ## License
 
-Finday is released under the [GNU Affero General Public License v3.0](./LICENSE.md).
+Finday is released under the [MIT License](./LICENSE.md).

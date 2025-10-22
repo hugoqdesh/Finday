@@ -3,7 +3,7 @@
 
 ---
 
-## Quick Start Guide
+## 🛠 Local Development & Contributing
 
 1.  Clone and install
 
@@ -30,9 +30,9 @@
 
     Visit http://localhost:3000
 
-## 🛠 Local Development & Contributing
+</br>
 
-Want to run Finday locally or contribute a feature? Check out our
+Want to contribute a feature? Check out our
 [Contributing Guide](./.github/CONTRIBUTING.md) for a step-by-step guide covering setup,
 database configuration, and pull-request guidelines.
 

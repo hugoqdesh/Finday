@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
+import { Wallet } from "lucide-react";
 
 export default function Hero() {
 	return (
@@ -16,11 +17,14 @@ export default function Hero() {
 				</p>
 
 				<div className="flex gap-4 max-w-lg w-full">
-					<Button size="lg">Coming Soon...</Button>
+					<Button size="lg">
+						<Wallet className="-ms-1 opacity-60" size={16} aria-hidden="true" />
+						Coming Soon...
+					</Button>
 				</div>
 			</div>
 
-			<div className="border p-2.5">
+			<div className="border p-3 bg-background">
 				<Image
 					src="/placeholder.jpg"
 					alt="placholder image"

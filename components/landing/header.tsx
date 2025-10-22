@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { ModeToggle } from "./mode-toggle";
 import { TurkishLira } from "lucide-react";
 import { Button } from "../ui/button";
 
@@ -12,7 +11,7 @@ export default function Header() {
 				<span className="text-lg font-medium">Finday</span>
 			</Link>
 
-			<div className="flex items-center gap-3">
+			<div className="flex items-center gap-6">
 				<nav className="hidden md:flex items-center gap-6 text-sm text-muted-foreground w-max">
 					<Link
 						href="/"
@@ -34,13 +33,10 @@ export default function Header() {
 					</Link>
 				</nav>
 
-				<div className="flex items-center gap-3">
-					<ModeToggle />
-					<Button>
-						{/* Open Account */}
-						Coming Soon...
-					</Button>
-				</div>
+				<Button>
+					{/* Open Account */}
+					Coming Soon...
+				</Button>
 			</div>
 		</header>
 	);

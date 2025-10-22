@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
-import { Check } from "lucide-react";
+import { Check, Wallet } from "lucide-react";
 
 export default function Pricing() {
 	return (
@@ -22,6 +22,7 @@ export default function Pricing() {
 
 					<Button variant="outline">
 						{/* Choose Monthly */}
+						<Wallet className="-ms-1 opacity-60" size={16} aria-hidden="true" />
 						Coming Soon...
 					</Button>
 				</div>
@@ -42,6 +43,7 @@ export default function Pricing() {
 
 					<Button variant="outline">
 						{/* Choose Annual */}
+						<Wallet className="-ms-1 opacity-60" size={16} aria-hidden="true" />
 						Coming Soon...
 					</Button>
 				</div>

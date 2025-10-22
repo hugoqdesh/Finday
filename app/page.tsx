@@ -1,3 +1,4 @@
+import GradientBlinds from "@/components/landing/background";
 import CTA from "@/components/landing/cta";
 import Demo from "@/components/landing/demo";
 import Features from "@/components/landing/features";
@@ -9,11 +10,36 @@ import Pricing from "@/components/landing/pricing";
 export default function Home() {
 	return (
 		<>
-			<Header />
+			<div className="relative w-full min-h-screen overflow-hidden">
+				<div className="absolute inset-0">
+					<GradientBlinds
+						gradientColors={["#FFFFFF", "#000000"]}
+						angle={20}
+						noise={0.5}
+						blindCount={16}
+						blindMinWidth={60}
+						spotlightRadius={0.5}
+						spotlightSoftness={1}
+						spotlightOpacity={1}
+						mouseDampening={0.15}
+						distortAmount={0}
+						shineDirection="left"
+						mixBlendMode="lighten"
+					/>
+				</div>
+
+				<div className="relative z-10 px-6 md:px-28 pointer-events-none">
+					<div className="pointer-events-auto">
+						<Header />
+					</div>
+
+					<div className="flex items-center justify-center min-h-screen -mt-20 pointer-events-none">
+						<Hero />
+					</div>
+				</div>
+			</div>
 
 			<main className="flex flex-col items-center justify-center gap-56 pt-36 px-6 md:px-28">
-				<Hero />
-
 				<Features />
 
 				<Demo />
@@ -22,7 +48,6 @@ export default function Home() {
 
 				<CTA />
 			</main>
-
 			{/* <Footer /> */}
 		</>
 	);

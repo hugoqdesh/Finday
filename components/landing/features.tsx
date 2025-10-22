@@ -4,11 +4,11 @@ import React from "react";
 
 export default function Features() {
 	return (
-		<section className="flex flex-col gap-8">
-			{/* <h3 className="font-medium text-8xl">Everything you need</h3> */}
-			{/* <p className="text-muted-foreground"> */}
-			{/* Everything you need to manage your money in one simple, powerful app */}
-			{/* </p> */}
+		<section className="flex flex-col gap-6">
+			<h3 className="font-medium text-4xl md:text-6xl">Everything you need</h3>
+			<p className="text-muted-foreground">
+				Everything you need to manage your money in one simple, powerful app
+			</p>
 
 			<div className="grid md:grid-cols-3 gap-8">
 				<div className="border md:col-span-3">

@@ -1,5 +1,9 @@
-import React from "react";
-
 export default function Footer() {
-	return <div>Footer</div>;
+	return (
+		<footer className="py-16">
+			<span className="text-muted-foreground block text-center text-sm">
+				© {new Date().getFullYear()} Finday, All rights reserved
+			</span>
+		</footer>
+	);
 }

@@ -12,7 +12,7 @@ export default function Header() {
 			</Link>
 
 			<div className="flex items-center gap-6">
-				<nav className="hidden md:flex items-center gap-6 text-sm text-muted-foreground w-max">
+				<nav className="hidden items-center gap-6 text-sm text-muted-foreground w-max">
 					<Link
 						href="/"
 						className="hover:text-primary transition-colors duration-200"
@@ -35,7 +35,7 @@ export default function Header() {
 
 				<Button>
 					{/* Open Account */}
-					Coming Soon...
+					Coming Soon
 				</Button>
 			</div>
 		</header>

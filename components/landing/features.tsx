@@ -29,7 +29,7 @@ export default function Features() {
 								clearer picture of your financial record and current situation.
 							</p>
 
-							<ul className="text-sm hidden md:flex items-center gap-6">
+							<ul className="text-sm hidden 2xl:flex items-center gap-6">
 								<li className="flex items-center gap-1.5">
 									<Check size={16} />
 									Revenue
@@ -57,7 +57,7 @@ export default function Features() {
 								where it matters.
 							</p>
 
-							<ul className="text-sm hidden md:flex items-center gap-6">
+							<ul className="text-sm hidden 2xl:flex items-center gap-6">
 								<li className="flex items-center gap-1.5">
 									<Check size={16} />
 									Auto-categorized transactions
@@ -99,7 +99,7 @@ export default function Features() {
 								overspend.
 							</p>
 
-							<ul className="text-sm hidden md:flex items-center gap-6">
+							<ul className="text-sm hidden 2xl:flex items-center gap-6">
 								<li className="flex items-center gap-1.5">
 									<Check size={16} />
 									Real-time goal saving
@@ -123,7 +123,7 @@ export default function Features() {
 								always in control.
 							</p>
 
-							<ul className="text-sm hidden md:flex items-center gap-6">
+							<ul className="text-sm hidden 2xl:flex items-center gap-6">
 								<li className="flex items-center gap-1.5">
 									<Check size={16} />
 									Export by date or category

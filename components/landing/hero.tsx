@@ -19,7 +19,7 @@ export default function Hero() {
 				<div className="flex gap-4 max-w-lg w-full">
 					<Button size="lg">
 						<Wallet className="-ms-1 opacity-60" size={16} aria-hidden="true" />
-						Coming Soon...
+						Coming Soon
 					</Button>
 				</div>
 			</div>

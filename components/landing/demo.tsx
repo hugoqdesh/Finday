@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Demo() {
 	return (
-		<section className="flex flex-col gap-12 md:gap-32">
+		<section className="flex flex-col gap-12 md:gap-12 2xl:gap-32">
 			<Image
 				src="/placeholder.jpg"
 				alt="placeholder image"
@@ -11,7 +11,7 @@ export default function Demo() {
 				height={1080}
 			/>
 
-			<h3 className="text-center font-medium text-2xl md:text-6xl">
+			<h3 className="text-center font-medium text-2xl md:text-5xl 2xl:text-6xl">
 				Finance doesn’t have to be full of headaches. Finday helps you to
 				streamline your process, reduce manual work and bundles everything up
 				neatly for you

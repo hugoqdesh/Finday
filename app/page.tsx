@@ -11,7 +11,7 @@ export default function Home() {
 	return (
 		<>
 			<div className="relative w-full min-h-screen overflow-hidden">
-				<div className="absolute inset-0">
+				<div className="hidden md:block absolute inset-0">
 					<GradientBlinds
 						gradientColors={["#FFFFFF", "#000000"]}
 						angle={20}
@@ -33,12 +33,11 @@ export default function Home() {
 						<Header />
 					</div>
 
-					<div className="flex items-center justify-center min-h-screen -mt-20 pointer-events-none">
+					<div className="flex items-center justify-center min-h-screen md:-mt-20 pointer-events-none">
 						<Hero />
 					</div>
 				</div>
 			</div>
-
 			<main className="flex flex-col items-center justify-center gap-56 pt-36 px-6 md:px-28">
 				<Features />
 
@@ -48,7 +47,8 @@ export default function Home() {
 
 				<CTA />
 			</main>
-			{/* <Footer /> */}
+
+			<Footer />
 		</>
 	);
 }

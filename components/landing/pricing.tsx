@@ -22,8 +22,7 @@ export default function Pricing() {
 
 					<Button variant="outline">
 						{/* Choose Monthly */}
-						<Wallet className="-ms-1 opacity-60" size={16} aria-hidden="true" />
-						Coming Soon...
+						Coming Soon
 					</Button>
 				</div>
 
@@ -43,8 +42,7 @@ export default function Pricing() {
 
 					<Button variant="outline">
 						{/* Choose Annual */}
-						<Wallet className="-ms-1 opacity-60" size={16} aria-hidden="true" />
-						Coming Soon...
+						Coming Soon
 					</Button>
 				</div>
 			</div>
@@ -54,7 +52,7 @@ export default function Pricing() {
 					Benefits
 				</h4>
 
-				<ul className="grid grid-cols-1 md:grid-cols-2 gap-x-20 space-y-6 text-sm">
+				<ul className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-2.5 text-sm">
 					<li className="flex items-center gap-1.5">
 						<Check size={16} />
 						<span>12,000+ bank connections</span>

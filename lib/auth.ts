@@ -5,6 +5,11 @@ import { schema } from "@/db/schema";
 import { nextCookies } from "better-auth/next-js";
 
 export const auth = betterAuth({
+	rateLimit: {
+		enabled: true,
+		window: 10,
+		max: 3,
+	},
 	database: drizzleAdapter(db, {
 		provider: "pg",
 		schema,

@@ -11,7 +11,7 @@ export default function LoginPage() {
 					alt="Image"
 					width={1920}
 					height={1080}
-					className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale p-1"
+					className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale p-2"
 				/>
 			</div>
 

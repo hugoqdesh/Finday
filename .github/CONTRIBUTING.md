@@ -7,6 +7,7 @@ Thanks for your interest in contributing! This guide explains how to get Finday 
 Before you start, make sure you have the following installed or available:
 
 - **Node.js** ≥ 20.x
+- **pnpm** ≥ 8.x (install with npm i -g pnpm)
 - **MongoDB** database
 - **Google** and **GitHub** OAuth apps (for authentication)
 - **Optional**: [Polar](https://sandbox.polar.sh) sandbox account if you want to test payments
@@ -37,7 +38,7 @@ Before you start, make sure you have the following installed or available:
 2. Install Dependencies
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. Configure Environment Variables
@@ -60,7 +61,7 @@ If you would rather use github you can follow [the first step](https://www.bette
 ## Running the Application
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## Making changes
@@ -74,7 +75,7 @@ npm run dev
 2. Test your changes and make sure they work and run a build
 
    ```bash
-   npm run build
+   pnpm build
    ```
 
 3. If your build succeeds you can go ahead and make a commit using conventional [commit messages](https://www.conventionalcommits.org/en/v1.0.0/)

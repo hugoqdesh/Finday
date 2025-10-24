@@ -8,7 +8,7 @@ Before you start, make sure you have the following installed or available:
 
 - **Node.js** ≥ 20.x
 - **pnpm** ≥ 8.x (install with npm i -g pnpm)
-- **MongoDB** database
+- **PostgreSQL** database (we use [Neon](https://neon.com))
 - **Google** and **GitHub** OAuth apps (for authentication)
 - **Optional**: [Polar](https://sandbox.polar.sh) sandbox account if you want to test payments
 
@@ -47,7 +47,7 @@ Before you start, make sure you have the following installed or available:
 
 4. Database Setup
 
-   We use MongoDB for the database. Create a MongoDB project and copy your connection string.
+   We use Neon for the database. Create a Neon project and copy your connection string.
 
 ### Google OAuth
 

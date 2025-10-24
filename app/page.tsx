@@ -38,7 +38,8 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<main className="flex flex-col items-center justify-center gap-56 pt-36 px-6 md:px-28">
+
+			{/* <main className="flex flex-col items-center justify-center gap-56 pt-36 px-6 md:px-28">
 				<Features />
 
 				<Demo />
@@ -48,7 +49,7 @@ export default function Home() {
 				<CTA />
 			</main>
 
-			<Footer />
+			<Footer /> */}
 		</>
 	);
 }

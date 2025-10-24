@@ -13,7 +13,7 @@
     cd finday
 
     # Install dependencies
-    npm install
+    pnpm install
     ```
 
 2.  Configure Environment Variables
@@ -23,7 +23,7 @@
 3.  Start the App
 
     ```
-    npm run dev
+    pnpm run
     ```
 
 4.  Open in Browser

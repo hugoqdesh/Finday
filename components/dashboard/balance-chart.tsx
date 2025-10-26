@@ -17,7 +17,7 @@ import {
 	SelectItem,
 	SelectTrigger,
 	SelectValue,
-} from "./ui/select";
+} from "../ui/select";
 
 const chartData = [
 	{ month: "January", mobile: 245 },
@@ -41,7 +41,7 @@ const chartConfig = {
 	},
 } satisfies ChartConfig;
 
-export function ClippedAreaChart() {
+export function DashboardAreaChart() {
 	const chartRef = useRef<HTMLDivElement>(null);
 	const [axis, setAxis] = useState(0);
 

@@ -60,7 +60,7 @@ export function DashboardAreaChart() {
 	});
 
 	return (
-		<Card className="bg-transparent">
+		<Card>
 			<CardHeader className="flex items-center gap-2 sm:flex-row">
 				<div className="grid flex-1 gap-3">
 					<CardDescription className="uppercase">Total Balance</CardDescription>
@@ -87,7 +87,7 @@ export function DashboardAreaChart() {
 			<CardContent>
 				<ChartContainer
 					ref={chartRef}
-					className="h-96 w-full"
+					className="h-80 w-full"
 					config={chartConfig}
 				>
 					<AreaChart

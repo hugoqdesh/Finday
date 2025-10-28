@@ -38,6 +38,9 @@ importers:
       '@radix-ui/react-label':
         specifier: ^2.1.7
         version: 2.1.7(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@radix-ui/react-progress':
+        specifier: ^1.1.7
+        version: 1.1.7(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-select':
         specifier: ^2.2.6
         version: 2.2.6(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -66,8 +69,8 @@ importers:
         specifier: ^8.21.3
         version: 8.21.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       better-auth:
-        specifier: ^1.3.29
-        version: 1.3.29(next@15.5.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: ^1.3.32
+        version: 1.3.32(next@15.5.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -115,7 +118,7 @@ importers:
         version: 4.1.12
     devDependencies:
       '@biomejs/biome':
-        specifier: 2.2.0
+        specifier: 2.15.4
         version: 2.2.0
       '@tailwindcss/postcss':
         specifier: ^4.1.16
@@ -152,8 +155,8 @@ packages:
     resolution: {integrity: sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ==}
     engines: {node: '>=6.9.0'}
 
-  '@better-auth/core@1.3.29':
-    resolution: {integrity: sha512-Ka2mg4qZACFaLY7DOGFXv1Ma8CkF17k0ClUd2U/ZJbbSoEPI5gnVguEmakJB6HFYswszeZh2295IFORtW9wf7A==}
+  '@better-auth/core@1.3.32':
+    resolution: {integrity: sha512-G4y6qB0yDp0XU0VYsUC/8kF1l6xxQyxBUGYy5Ww9uK5EGXSufU6O0IH0u2GjSh8ZAtOVs5JEfOMen1tuZPObtw==}
     peerDependencies:
       '@better-auth/utils': 0.3.0
       '@better-fetch/fetch': 1.1.18
@@ -162,8 +165,8 @@ packages:
       kysely: ^0.28.5
       nanostores: ^1.0.1
 
-  '@better-auth/telemetry@1.3.29':
-    resolution: {integrity: sha512-1BFh3YulYDrwWcUkfEWddcrcApACyI4wtrgq3NBd9y+tilBRjWTCWEPuRqJrfM3a5F1ZSqsvOYfFG1XZbkxlVw==}
+  '@better-auth/telemetry@1.3.32':
+    resolution: {integrity: sha512-nYiMkP94l1xQ4j1CN0jrh03fcKemeFRDNWnCknf+GwTsykp3uApNDV1wdpjoEk1x68+AsAinb6GEj2Ak9qWOLA==}
 
   '@better-auth/utils@0.3.0':
     resolution: {integrity: sha512-W+Adw6ZA6mgvnSnhOki270rwJ42t4XzSK6YWGF//BbVXL6SwCLWfyzBc1lN2m/4RM28KubdBKQ4X5VMoLRNPQw==}
@@ -1049,6 +1052,19 @@ packages:
       '@types/react-dom':
         optional: true
 
+  '@radix-ui/react-progress@1.1.7':
+    resolution: {integrity: sha512-vPdg/tF6YC/ynuBIJlk1mm7Le0VgW6ub6J2UWnTQ7/D23KXcPI1qy+0vBkgKgd38RCMJavBXpB83HPNFMTb0Fg==}
+    peerDependencies:
+      '@types/react': '*'
+      '@types/react-dom': '*'
+      react: ^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+      react-dom: ^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+
   '@radix-ui/react-roving-focus@1.1.11':
     resolution: {integrity: sha512-7A6S9jSgm/S+7MdtNDSb+IU859vQqJ/QAtcYQcfFC6W8RS4IxIZDldLR0xqCFZ6DCyrQLjLPsxtTNch5jVA4lA==}
     peerDependencies:
@@ -1415,8 +1431,8 @@ packages:
     resolution: {integrity: sha512-UOCGPYbl0tv8+006qks/dTgV9ajs97X2p0FAbyS2iyCRrmLSRolDaHdp+v/CLgnzHc3fVB+CwYiUmei7ndFcgA==}
     engines: {node: '>=12.0.0'}
 
-  better-auth@1.3.29:
-    resolution: {integrity: sha512-1va1XZLTQme3DX33PgHqwwVyOJya5H0+ozT6BhOjTnwecC50I75F0OqqTwINq4XZ0+GuD3bl3I55RiFP49jStw==}
+  better-auth@1.3.32:
+    resolution: {integrity: sha512-BHz/Ci0oiLe7PA922i+WqqoyW/fj5F1iax7DlUKmixFtyVQ2BJUDXcOROONARCtYScCDDoPLcW3ZrPXPbq/1Bg==}
     peerDependencies:
       '@lynx-js/react': '*'
       '@sveltejs/kit': '*'
@@ -1894,9 +1910,9 @@ packages:
   pvtsutils@1.3.6:
     resolution: {integrity: sha512-PLgQXQ6H2FWCaeRak8vvk1GW462lMxB5s3Jm673N82zI4vqtVUPuZdffdZbPDFRoU8kAhItWFtPCWiPpp4/EDg==}
 
-  pvutils@1.1.4:
-    resolution: {integrity: sha512-lf4Ny9TN57ovn3pnn7H3AX8cZsPD8TQqui/t7yJvfoZn1ZKszw5i7zr5BpYzPLN4clFt5A34z/hbYCw4a8zyJA==}
-    engines: {node: '>=22.0.0'}
+  pvutils@1.1.5:
+    resolution: {integrity: sha512-KTqnxsgGiQ6ZAzZCVlJH5eOjSnvlyEgx1m8bkRJfOhmGRqfo5KLvmAlACQkrjEtOQ4B7wF9TdSLIs9O90MX9xA==}
+    engines: {node: '>=16.0.0'}
 
   react-dom@19.1.0:
     resolution: {integrity: sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==}
@@ -2103,7 +2119,7 @@ snapshots:
 
   '@babel/runtime@7.28.4': {}
 
-  '@better-auth/core@1.3.29(@better-auth/utils@0.3.0)(@better-fetch/fetch@1.1.18)(better-call@1.0.19)(jose@6.1.0)(kysely@0.28.8)(nanostores@1.0.1)':
+  '@better-auth/core@1.3.32(@better-auth/utils@0.3.0)(@better-fetch/fetch@1.1.18)(better-call@1.0.19)(jose@6.1.0)(kysely@0.28.8)(nanostores@1.0.1)':
     dependencies:
       '@better-auth/utils': 0.3.0
       '@better-fetch/fetch': 1.1.18
@@ -2113,9 +2129,9 @@ snapshots:
       nanostores: 1.0.1
       zod: 4.1.12
 
-  '@better-auth/telemetry@1.3.29(better-call@1.0.19)(jose@6.1.0)(kysely@0.28.8)(nanostores@1.0.1)':
+  '@better-auth/telemetry@1.3.32(better-call@1.0.19)(jose@6.1.0)(kysely@0.28.8)(nanostores@1.0.1)':
     dependencies:
-      '@better-auth/core': 1.3.29(@better-auth/utils@0.3.0)(@better-fetch/fetch@1.1.18)(better-call@1.0.19)(jose@6.1.0)(kysely@0.28.8)(nanostores@1.0.1)
+      '@better-auth/core': 1.3.32(@better-auth/utils@0.3.0)(@better-fetch/fetch@1.1.18)(better-call@1.0.19)(jose@6.1.0)(kysely@0.28.8)(nanostores@1.0.1)
       '@better-auth/utils': 0.3.0
       '@better-fetch/fetch': 1.1.18
     transitivePeerDependencies:
@@ -2844,6 +2860,16 @@ snapshots:
       '@types/react': 19.2.2
       '@types/react-dom': 19.2.2(@types/react@19.2.2)
 
+  '@radix-ui/react-progress@1.1.7(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+    dependencies:
+      '@radix-ui/react-context': 1.1.2(@types/react@19.2.2)(react@19.1.0)
+      '@radix-ui/react-primitive': 2.1.3(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
+    optionalDependencies:
+      '@types/react': 19.2.2
+      '@types/react-dom': 19.2.2(@types/react@19.2.2)
+
   '@radix-ui/react-roving-focus@1.1.11(@types/react-dom@19.2.2(@types/react@19.2.2))(@types/react@19.2.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@radix-ui/primitive': 1.1.3
@@ -3194,13 +3220,13 @@ snapshots:
   asn1js@3.0.6:
     dependencies:
       pvtsutils: 1.3.6
-      pvutils: 1.1.4
+      pvutils: 1.1.5
       tslib: 2.8.1
 
-  better-auth@1.3.29(next@15.5.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  better-auth@1.3.32(next@15.5.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      '@better-auth/core': 1.3.29(@better-auth/utils@0.3.0)(@better-fetch/fetch@1.1.18)(better-call@1.0.19)(jose@6.1.0)(kysely@0.28.8)(nanostores@1.0.1)
-      '@better-auth/telemetry': 1.3.29(better-call@1.0.19)(jose@6.1.0)(kysely@0.28.8)(nanostores@1.0.1)
+      '@better-auth/core': 1.3.32(@better-auth/utils@0.3.0)(@better-fetch/fetch@1.1.18)(better-call@1.0.19)(jose@6.1.0)(kysely@0.28.8)(nanostores@1.0.1)
+      '@better-auth/telemetry': 1.3.32(better-call@1.0.19)(jose@6.1.0)(kysely@0.28.8)(nanostores@1.0.1)
       '@better-auth/utils': 0.3.0
       '@better-fetch/fetch': 1.1.18
       '@noble/ciphers': 2.0.1
@@ -3568,7 +3594,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  pvutils@1.1.4: {}
+  pvutils@1.1.5: {}
 
   react-dom@19.1.0(react@19.1.0):
     dependencies:

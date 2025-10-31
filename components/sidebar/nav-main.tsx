@@ -15,11 +15,13 @@ import {
 	Settings,
 	Target,
 } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const links = [
 	{
 		title: "Overview",
-		url: "#",
+		url: "/dashboard",
 		icon: ChartNoAxesCombined,
 	},
 	{
@@ -50,15 +52,25 @@ const links = [
 ];
 
 export function NavMain() {
+	const pathname = usePathname();
 	return (
 		<SidebarGroup>
 			<SidebarGroupContent>
 				<SidebarMenu className="space-y-2">
 					{links.map((link) => (
 						<SidebarMenuItem key={link.title}>
-							<SidebarMenuButton className="cursor-pointer">
-								{link.icon && <link.icon />}
-								<span>{link.title}</span>
+							<SidebarMenuButton
+								asChild
+								isActive={Boolean(
+									link.url !== "#" &&
+										(pathname === link.url ||
+											pathname?.startsWith(link.url + "/"))
+								)}
+							>
+								<Link href={link.url}>
+									{link.icon && <link.icon />}
+									<span>{link.title}</span>
+								</Link>
 							</SidebarMenuButton>
 						</SidebarMenuItem>
 					))}

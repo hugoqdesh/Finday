@@ -21,8 +21,8 @@ export default function Spending() {
 			<CardContent className="flex flex-col gap-3">
 				<div className="grid grid-cols-2 items-center">
 					<div className="flex items-center gap-3">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none" />
+						<Avatar className="h-3 w-3 rounded-none">
+							<AvatarFallback className="rounded-none bg-pink-600" />
 						</Avatar>
 						<p className="font-medium">Rent</p>
 					</div>
@@ -35,8 +35,8 @@ export default function Spending() {
 
 				<div className="grid grid-cols-2 items-center">
 					<div className="flex items-center gap-3">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none" />
+						<Avatar className="h-3 w-3 rounded-none">
+							<AvatarFallback className="rounded-none bg-purple-600" />
 						</Avatar>
 						<p className="font-medium">Meals</p>
 					</div>
@@ -49,8 +49,8 @@ export default function Spending() {
 
 				<div className="grid grid-cols-2 items-center">
 					<div className="flex items-center gap-3">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none" />
+						<Avatar className="h-3 w-3 rounded-none">
+							<AvatarFallback className="rounded-none bg-red-600" />
 						</Avatar>
 						<p className="font-medium">Software</p>
 					</div>
@@ -63,8 +63,8 @@ export default function Spending() {
 
 				<div className="grid grid-cols-2 items-center">
 					<div className="flex items-center gap-3">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none" />
+						<Avatar className="h-3 w-3 rounded-none">
+							<AvatarFallback className="rounded-none bg-green-600" />
 						</Avatar>
 						<p className="font-medium">Travel</p>
 					</div>
@@ -77,8 +77,8 @@ export default function Spending() {
 
 				<div className="grid grid-cols-2 items-center">
 					<div className="flex items-center gap-3">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none" />
+						<Avatar className="h-3 w-3 rounded-none">
+							<AvatarFallback className="rounded-none bg-orange-600" />
 						</Avatar>
 						<p className="font-medium">Other</p>
 					</div>

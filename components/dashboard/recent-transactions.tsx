@@ -21,8 +21,8 @@ export default function Transactions() {
 			<CardContent className="flex flex-col gap-3">
 				<div className="flex items-center justify-between">
 					<div className="flex items-center gap-2">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none text-xs" />
+						<Avatar className="h-3 w-3 rounded-none">
+							<AvatarFallback className="rounded-none bg-pink-600 text-xs" />
 						</Avatar>
 						<p className="font-medium">Rent</p>
 					</div>
@@ -31,8 +31,8 @@ export default function Transactions() {
 
 				<div className="flex items-center justify-between">
 					<div className="flex items-center gap-2">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none text-xs" />
+						<Avatar className="h-3 w-3 rounded-none">
+							<AvatarFallback className="rounded-none bg-blue-600 text-xs" />
 						</Avatar>
 						<p className="font-medium">Shopping</p>
 					</div>
@@ -41,8 +41,8 @@ export default function Transactions() {
 
 				<div className="flex items-center justify-between">
 					<div className="flex items-center gap-2">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none text-xs" />
+						<Avatar className="h-3 w-3 rounded-none">
+							<AvatarFallback className="rounded-none bg-blue-600 text-xs" />
 						</Avatar>
 						<p className="font-medium">Shopping</p>
 					</div>
@@ -51,8 +51,8 @@ export default function Transactions() {
 
 				<div className="flex items-center justify-between">
 					<div className="flex items-center gap-2">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none text-xs" />
+						<Avatar className="h-3 w-3 rounded-none">
+							<AvatarFallback className="rounded-none bg-yellow-600 text-xs" />
 						</Avatar>
 						<p className="font-medium">Salary</p>
 					</div>

@@ -12,9 +12,6 @@ export default function Accounts() {
 			<CardContent className="flex flex-col gap-3">
 				<div className="flex items-center justify-between gap-12">
 					<div className="flex items-center gap-3">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none" />
-						</Avatar>
 						<p className="font-medium">Bank 1</p>
 					</div>
 					<p className="text-muted-foreground text-sm font-medium">$320</p>
@@ -22,9 +19,6 @@ export default function Accounts() {
 
 				<div className="flex items-center justify-between gap-12">
 					<div className="flex items-center gap-3">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none" />
-						</Avatar>
 						<p className="font-medium">Bank 2</p>
 					</div>
 					<p className="text-muted-foreground text-sm font-medium">$320</p>
@@ -32,9 +26,6 @@ export default function Accounts() {
 
 				<div className="flex items-center justify-between gap-12">
 					<div className="flex items-center gap-3">
-						<Avatar className="h-5 w-5 rounded-none">
-							<AvatarFallback className="rounded-none" />
-						</Avatar>
 						<p className="font-medium">Cash</p>
 					</div>
 					<p className="text-muted-foreground text-sm font-medium">$320</p>

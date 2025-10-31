@@ -36,13 +36,8 @@ const links = [
 	},
 	{
 		title: "Transactions",
-		url: "#",
+		url: "/dashboard/transactions",
 		icon: ArrowLeftRight,
-	},
-	{
-		title: "Vault",
-		url: "#",
-		icon: BriefcaseBusiness,
 	},
 	{
 		title: "Settings",

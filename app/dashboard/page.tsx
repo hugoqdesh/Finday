@@ -6,7 +6,7 @@ import { IncomeExpenseChart } from "@/components/dashboard/income-expense-chart"
 
 export default function DashboardPage() {
 	return (
-		<main className="px-4">
+		<main className="flex flex-col gap-6 px-4">
 			<section>
 				<DashboardAreaChart />
 			</section>

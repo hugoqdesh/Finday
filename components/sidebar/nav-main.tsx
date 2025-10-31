@@ -46,7 +46,7 @@ const links = [
 	},
 	{
 		title: "Settings",
-		url: "#",
+		url: "/dashboard/settings",
 		icon: Settings,
 	},
 ];
@@ -57,23 +57,24 @@ export function NavMain() {
 		<SidebarGroup>
 			<SidebarGroupContent>
 				<SidebarMenu className="space-y-2">
-					{links.map((link) => (
-						<SidebarMenuItem key={link.title}>
-							<SidebarMenuButton
-								asChild
-								isActive={Boolean(
-									link.url !== "#" &&
-										(pathname === link.url ||
-											pathname?.startsWith(link.url + "/"))
-								)}
-							>
-								<Link href={link.url}>
-									{link.icon && <link.icon />}
-									<span>{link.title}</span>
-								</Link>
-							</SidebarMenuButton>
-						</SidebarMenuItem>
-					))}
+					{links.map((link) => {
+						const isActive =
+							link.url !== "#" &&
+							(pathname === link.url ||
+								(pathname?.startsWith(link.url + "/") &&
+									link.url !== "/dashboard"));
+
+						return (
+							<SidebarMenuItem key={link.title}>
+								<SidebarMenuButton asChild isActive={isActive}>
+									<Link href={link.url}>
+										{link.icon && <link.icon />}
+										<span>{link.title}</span>
+									</Link>
+								</SidebarMenuButton>
+							</SidebarMenuItem>
+						);
+					})}
 				</SidebarMenu>
 			</SidebarGroupContent>
 		</SidebarGroup>

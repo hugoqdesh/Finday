@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/sidebar";
 import {
 	ArrowLeftRight,
-	BriefcaseBusiness,
 	CalendarSync,
 	ChartNoAxesCombined,
 	Settings,
@@ -26,12 +25,12 @@ const links = [
 	},
 	{
 		title: "Budgets",
-		url: "#",
+		url: "/dashboard/budgets",
 		icon: Target,
 	},
 	{
 		title: "Recurring",
-		url: "#",
+		url: "/dashboard/recurring",
 		icon: CalendarSync,
 	},
 	{

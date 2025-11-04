@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { SidebarTrigger } from "@/components/ui/sidebar";
 import { NavUser } from "./nav-user";
 import { Bell } from "lucide-react";
+import { ModeToggle } from "../mode-toggle";
 
 export function SiteHeader() {
 	return (
@@ -12,6 +13,7 @@ export function SiteHeader() {
 					<Button variant="clear" size="icon">
 						<Bell />
 					</Button>
+					<ModeToggle />
 					<NavUser />
 				</div>
 			</div>

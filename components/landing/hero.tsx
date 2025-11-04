@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
 import { Wallet } from "lucide-react";
+import Link from "next/link";
 
 export default function Hero() {
 	return (
@@ -17,10 +18,16 @@ export default function Hero() {
 				</p>
 
 				<div className="flex gap-4 max-w-lg w-full">
-					<Button size="lg">
-						<Wallet className="-ms-1 opacity-60" size={16} aria-hidden="true" />
-						Coming Soon
-					</Button>
+					<Link href="/dashboard">
+						<Button size="lg">
+							<Wallet
+								className="-ms-1 opacity-60"
+								size={16}
+								aria-hidden="true"
+							/>
+							Coming Soon
+						</Button>
+					</Link>
 				</div>
 			</div>
 

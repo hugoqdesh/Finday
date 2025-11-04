@@ -33,10 +33,12 @@ export default function Header() {
 					</Link>
 				</nav>
 
-				<Button>
-					{/* Open Account */}
-					Coming Soon
-				</Button>
+				<Link href="/dashboard">
+					<Button>
+						{/* Open Account */}
+						Coming Soon
+					</Button>
+				</Link>
 			</div>
 		</header>
 	);
